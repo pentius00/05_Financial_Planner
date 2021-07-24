@@ -13,33 +13,30 @@ import datetime as dt
 ```python
 import os
 ```
-
+- [Pandas](https://pandas.pydata.org/docs/) can be installed with Anadonda or PyPi.
 ```python
 import pandas as pd
 ```
-Pandas can be installed with Anadonda or PyPi.
-
+- Requests library helps access data via APIs.
 ```python
 import requests
 ```
-Requests library helps access data via APIs.
-
+- JSON library parses API responses into a human-readable format.
 ```python
 import json
 ```
-JSON library parses API responses into a human-readable format.
+- Python-dotenv library is used to read key-value pairs from hidden files.
 ```python
 from dotenv import load_dotenv
 ```
-Python-dotenv library is used to read key-value pairs from hidden files.
+- Alpaca API SDK for stock trading information. Its use requires an API key, obtained from the Alpaca website.
 ```python
 import alpaca_trade_api as tradeapi
 ```
-Alpaca API SDK for stock trading information. Its use requires an API key, obtained from the Alpaca website.
+- A Python class for runnning Monte Carlo simulation on portfolio price data. 
 ```python
 from MCForecastTools import MCSimulation
 ```
-A Python class for runnning Monte Carlo simulation on portfolio price data. 
 
 ---
 
