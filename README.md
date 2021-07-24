@@ -5,7 +5,7 @@
 Code is written using Python version 3.7 and runs in a Jupyter Lab notebook. 
 The following libraries are required to run this program:
 
-- [Datetime](https://docs.python.org/3/library/datetime.html) provides functions for working with dates and times such as getting the current date and last trading day.
+- [Datetime](https://docs.python.org/3/library/datetime.html) supplies classes for manipulating dates and times.
 ```python
 import datetime as dt
 ```
@@ -13,27 +13,27 @@ import datetime as dt
 ```python
 import os
 ```
-- [Pandas](https://pandas.pydata.org/docs/) can be installed with Anadonda or PyPi.
+- [Pandas](https://pandas.pydata.org/docs/) is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool, built on top of the Python programming language.
 ```python
 import pandas as pd
 ```
-- Requests library helps access data via APIs.
+- [Requests](https://docs.python-requests.org/en/master/) Requests is an elegant and simple HTTP library for Python, built for human beings.
 ```python
 import requests
 ```
-- JSON library parses API responses into a human-readable format.
+- [JSON](https://docs.python.org/3/library/json.html) is a lightweight data interchange format inspired by JavaScript object literal syntax.
 ```python
 import json
 ```
-- Python-dotenv library is used to read key-value pairs from hidden files.
+- [Python-dotenv](https://github.com/theskumar/python-dotenv) gets and sets values in a .env file in local and production servers.
 ```python
 from dotenv import load_dotenv
 ```
-- Alpaca API SDK for stock trading information. Its use requires an API key, obtained from the Alpaca website.
+- [Alpaca](https://alpaca.markets/docs/) API is a modern platform for algorithmic trading.
 ```python
 import alpaca_trade_api as tradeapi
 ```
-- A Python class for runnning Monte Carlo simulation on portfolio price data. 
+- MCForecastTools is a Python class for runnning Monte Carlo simulation on portfolio price data. View the file and read the docstring [here](https://github.com/rdillens/05_Financial_Planner/blob/main/MCForecastTools.py).
 ```python
 from MCForecastTools import MCSimulation
 ```
@@ -58,4 +58,4 @@ Starter code was given in the Rice FinTech Bootcamp and all modifications were m
 ---
 ## License
 This project is licensed under the MIT License.
-[Click Here](https://github.com/rdillens/05_Financia_Planner/blob/main/LICENSE) for more information.
+[Click Here](https://github.com/rdillens/05_Financial_Planner/blob/main/LICENSE) for more information.
