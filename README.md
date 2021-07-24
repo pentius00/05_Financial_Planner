@@ -1,6 +1,7 @@
 # 05_Financial_Planner
 **Visualize savings and forecast future performance using Alpaca API and Monte Carlo simulation.**
 
+---
 ## Technologies
 Code is written using Python version 3.7 and runs in a Jupyter Lab notebook. 
 The following libraries are required to run this program:
@@ -39,19 +40,15 @@ from MCForecastTools import MCSimulation
 ```
 
 ---
-
 ## Inatallation Guide
 
 ---
-
 ## Usage
 
 ---
-
 ## Examples
 
 ---
-
 ## Contributors
 Starter code was given in the Rice FinTech Bootcamp and all modifications were made by Remy Dillenseger.
 
