@@ -49,6 +49,14 @@ pip install pandas
 ```powershell
 python -m pip install requests
 ```
+- Python-dotenv
+```powershell
+pip install python-dotenv
+```
+- Alpaca
+```powershell
+pip install alpaca-trade-api
+```
 
 ---
 ## Usage
