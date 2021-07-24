@@ -5,14 +5,14 @@
 Code is written using Python version 3.7 and runs in a Jupyter Lab notebook. 
 The following libraries are required to run this program:
 
--[Datetime](https://docs.python.org/3/library/datetime.html) provides functions for working with dates and times such as getting the current date and last trading day.
+- [Datetime](https://docs.python.org/3/library/datetime.html) provides functions for working with dates and times such as getting the current date and last trading day.
 ```python
 import datetime as dt
 ```
+- The [OS](https://docs.python.org/3/library/os.html) module is used to interact with the computer's operating system.
 ```python
 import os
 ```
-The OS module is used to interact with the computer's operating system.
 
 ```python
 import pandas as pd
