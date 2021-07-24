@@ -54,6 +54,11 @@ pip install python-dotenv
 
 ---
 ## Usage
+### Part 1: Create a Financial Planner for Emergencies
+The first part of this program defines the number of bitcoin and etherium tokens in a user's wallet and the users's monthly income.
+Using the Free Crypto API, the JSON response for each requested currency is stored and displayed and the current value of the user's wallet is calculated.
+Then, the program defines the number of shares held in stocks and bonds in the SPDR S&P 500 ETF Trust (ticker: SPY) and of the iShares Core US Aggregate Bond ETF (ticker: AGG). Using the Alpaca API, the closing value of the previous trading day is used to calculate the current value of the user's savings portfolio.
+Lastly, a pie chart is produced showing the ratio of crypto to stocks and bonds and the total value of the portfolio is compared to three months of income to determine if the user's portfolio is large enough to fund the emergency portfolio. 
 
 ---
 ## Examples
