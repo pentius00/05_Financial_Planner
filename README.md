@@ -41,6 +41,14 @@ from MCForecastTools import MCSimulation
 
 ---
 ## Inatallation Guide
+- Pandas
+```powershell
+pip install pandas
+```
+- Requests
+```powershell
+python -m pip install requests
+```
 
 ---
 ## Usage
