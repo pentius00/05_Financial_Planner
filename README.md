@@ -41,22 +41,16 @@ from MCForecastTools import MCSimulation
 
 ---
 ## Inatallation Guide
-- Pandas
-```powershell
-pip install pandas
-```
-- Requests
-```powershell
-python -m pip install requests
-```
-- Python-dotenv
-```powershell
-pip install python-dotenv
-```
 - Alpaca
 ```powershell
 pip install alpaca-trade-api
 ```
+The Alpaca API requires an access token, which can be obtained by creating an account [here](https://alpaca.markets/).
+- Python-dotenv
+```powershell
+pip install python-dotenv
+```
+Use python-dotenv to save the API access token as a key-value pair in a hidden file named '.env'. Be sure to enclose the access token value in double quotation marks '""' and do not use any spaces.
 
 ---
 ## Usage
