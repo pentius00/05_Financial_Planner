@@ -1,10 +1,11 @@
 # 05_Financial_Planner
-Visualize savings and forecast future performance using Alpaca API and Monte Carlo simulation
+**Visualize savings and forecast future performance using Alpaca API and Monte Carlo simulation.**
 
 ## Technologies
 Code is written using Python version 3.7 and runs in a Jupyter Lab notebook. 
 The following libraries are required to run this program:
 
+-[Datetime](https://docs.python.org/3/library/datetime.html) provides functions for working with dates and times such as getting the current date and last trading day.
 ```python
 import datetime as dt
 ```
