@@ -74,7 +74,7 @@ Finally, an evaluation is made to determine if the user could potentially retire
 ![JSON response](/Images/JSON_response_BTC.png)
 ![Alpaca Dataframe](/Images/Alpaca_df.png)
 ![10 Year Historical Dataframe](/Images/Historical_df.png)
-![Portfolio Pie Chart](/Images/Portfolio_Pie.png)
+![Portfolio Pie Chart](/Images/Port_Pie.png)
 ![Monte Carlo Line Plot](/Images/MCS_30_Years.png)
 ![Monte Carlo Histogram](/Images/Dist_Hist.png)
 
